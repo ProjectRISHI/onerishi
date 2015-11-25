@@ -149,6 +149,24 @@ a:focus {
     }
 }
 
+.pagetro {
+    display: table;
+    width: 100%;
+    height: 10%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background: url(../img/megha_sd.JPG) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.fa-mycustomx{
+    font-size:100em;
+}
 
 .intro {
     display: table;
@@ -165,13 +183,26 @@ a:focus {
     -o-background-size: cover;
 }
 
+.pagetro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
 }
 
+.pagetro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
 .intro .intro-body .brand-heading {
     font-size: 40px;
+}
+
+.pagetro .intro-body .intro-text {
+    font-size: 18px;
 }
 
 .intro .intro-body .intro-text {
@@ -181,6 +212,10 @@ a:focus {
 @media(min-width:768px) {
     .intro {
         height: 100%;
+        padding: 0;
+    }
+    .pagetro {
+        height: 45%;
         padding: 0;
     }
 
